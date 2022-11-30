@@ -37,7 +37,7 @@ public class ShoppingCart extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
-        resp.setHeader("Content-Type", "text/html; charset=UTF-8 w/o BOM");
+        resp.setHeader("Content-Type", "text/html; charset=UTF-8");
 
         writer.printf("<html>\n" +
                 "<body>\n" +
